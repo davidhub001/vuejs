@@ -1,14 +1,17 @@
 <template>
   <Client/>
+  <api/>
 </template>
 
 <script>
 import Client from './components/ClientComponent.vue'
+import api from './components/ApiComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    Client
+    Client,
+    api
   },
   data(){
     return{
