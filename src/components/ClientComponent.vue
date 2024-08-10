@@ -1,5 +1,8 @@
 <template>
-    test
+    <form>
+        <input type="text" ref ="nom"> 
+        <button>Enregistrer</button>
+    </form>
 </template>
 <script>
 export default {
