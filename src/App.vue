@@ -1,15 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Client/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Client from './components/ClientComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Client
+  },
+  data(){
+    return{
+      testbe:'davida'
+
+    }
+  },
+  methods:{
+    test(){
+      console.log("test  bes")
+    }
   }
 }
 </script>
